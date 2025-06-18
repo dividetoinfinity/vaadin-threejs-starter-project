@@ -7,7 +7,7 @@ import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.html.Div;
 
 @Tag("my-three-element")
-@JsModule("./vaadin-threejs-starter-project/my-three-element.js")
+@JsModule("./js/my-three-element.js")
 public class ThreeComponent extends Component {
 
     public ThreeComponent() {

@@ -9,7 +9,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 
 @Tag("my-three-element")
-@JsModule("./vaadin-threejs-starter-project/my-three-element.js")
+@JsModule("./js/my-three-element.js")
 @Route("")
 public class HomeView extends VerticalLayout {
 
@@ -21,6 +21,6 @@ public class HomeView extends VerticalLayout {
         // add(new Paragraph("You can edit this view in src\\main\\java\\com\\example\\vaadin_threejs_starter_project\\views\\HomeView.java"));
 
         new ThreeComponent();
-        // setSizeFull();
+        setSizeFull();
     }
 }
