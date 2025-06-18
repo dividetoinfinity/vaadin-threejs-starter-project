@@ -1,10 +1,22 @@
 package com.example.vaadin_threejs_starter_project.component.three;
 
-import com.example.vaadin_threejs_starter_project.component.Component;
+import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.Composite;
+import com.vaadin.flow.component.Tag;
+import com.vaadin.flow.component.dependency.JsModule;
+import com.vaadin.flow.component.html.Div;
 
-public class ThreeComponent extends Component{
+@Tag("my-three-element")
+@JsModule("./vaadin-threejs-starter-project/my-three-element.js")
+public class ThreeComponent extends Component {
 
     public ThreeComponent() {
+        // setSizeFull();
     }
+
+    public Div renderArea() {
+        return null;
+    }
+
 
 }
