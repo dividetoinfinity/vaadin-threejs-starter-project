@@ -14,6 +14,6 @@ public class HomeView extends VerticalLayout {
         add(new Paragraph("This is the home view"));
 
         add(new Paragraph("You can edit this view in src\\main\\java\\com\\example\\vaadin_threejs_starter_project\\views\\HomeView.java"));
-
+        setSizeFull();
     }
 }
