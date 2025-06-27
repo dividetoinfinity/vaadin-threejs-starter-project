@@ -2,9 +2,7 @@
 
 Three.js working in Vaadin. However, an issue remains with the @Tag("my-three-element").
 
-It does work. When it works is the question.
-
-There might be an issue with the order of initialising the graphics context into the DOM (maybe?).
+Loading order initialising the graphics context into the DOM might be affected.
 
 ![img.png](img.png)
 
