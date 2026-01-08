@@ -23,6 +23,7 @@ class MyThreeElement extends HTMLElement {
     this.scene.add(this.cube);
 
     this.animate();
+    this.forceUpdate();
   }
   
   animate = () => {
